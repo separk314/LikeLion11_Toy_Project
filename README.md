@@ -15,4 +15,4 @@ http://ll11th-toy-project.p-e.kr:8000/
     
 ### 🔎API spec
 ---
-https://www.notion.so/Likelion_11th_toy_project_API_spec-1196764e77fc44e0851b46da846dae09
+https://changeable-mechanic-889.notion.site/1b653baf1d894f92a241890695ef0028
