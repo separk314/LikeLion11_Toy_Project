@@ -1,0 +1,882 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 12, 2023 - 16:37:30
+Django version 4.1.7, using settings 'config.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/May/2023 16:37:44] "GET / HTTP/1.1" 200 105
+Not Found: /1
+[12/May/2023 16:37:51] "GET /1 HTTP/1.1" 404 2604
+[12/May/2023 16:37:55] "GET / HTTP/1.1" 200 105
+[12/May/2023 16:40:39] "GET / HTTP/1.1" 200 105
+Not Found: /favicon.ico
+[12/May/2023 16:40:40] "GET /favicon.ico HTTP/1.1" 404 2486
+[12/May/2023 16:46:17] "GET / HTTP/1.1" 200 105
+[12/May/2023 16:46:35] "GET / HTTP/1.1" 200 105
+[12/May/2023 16:47:45] "POST / HTTP/1.1" 200 131
+[12/May/2023 16:48:17] "POST / HTTP/1.1" 200 192
+[12/May/2023 16:48:35] "POST / HTTP/1.1" 200 192
+[12/May/2023 16:48:39] "GET / HTTP/1.1" 200 309
+[12/May/2023 16:49:06] "GET /1 HTTP/1.1" 200 198
+[12/May/2023 16:49:43] "DELETE /2 HTTP/1.1" 200 99
+[12/May/2023 16:54:32,885] - Broken pipe from ('167.94.146.59', 59088)
+[12/May/2023 16:54:34] "GET / HTTP/1.1" 200 206
+[12/May/2023 16:54:34,397] - Broken pipe from ('167.94.146.59', 43926)
+[12/May/2023 16:54:34] "GET / HTTP/1.1" 200 206
+[12/May/2023 16:54:35] code 505, message Invalid HTTP version (2.0)
+[12/May/2023 16:54:35] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[12/May/2023 16:54:35] "GET /favicon.ico HTTP/1.1" 404 2472
+[12/May/2023 17:17:31] "POST / HTTP/1.1" 200 294
+[12/May/2023 17:17:34] "POST / HTTP/1.1" 200 354
+[12/May/2023 17:17:40] "POST / HTTP/1.1" 200 594
+[12/May/2023 17:17:46] "POST / HTTP/1.1" 200 1494
+[12/May/2023 17:17:51] "GET / HTTP/1.1" 200 2586
+[12/May/2023 17:18:06] "DELETE /3 HTTP/1.1" 200 99
+[12/May/2023 17:18:08] "DELETE /4 HTTP/1.1" 200 99
+[12/May/2023 17:18:10] "DELETE /5 HTTP/1.1" 200 99
+[12/May/2023 17:18:14] "GET / HTTP/1.1" 200 1611
+[12/May/2023 17:18:19] "DELETE /6 HTTP/1.1" 200 99
+[12/May/2023 17:19:09] "POST / HTTP/1.1" 200 186
+[12/May/2023 17:20:35] "GET / HTTP/1.1" 200 303
+[12/May/2023 17:20:38] "GET /1 HTTP/1.1" 200 198
+[12/May/2023 17:20:43] "GET /7 HTTP/1.1" 200 192
+[12/May/2023 17:21:07] "POST / HTTP/1.1" 200 131
+Not Found: /90
+[12/May/2023 17:21:48] "GET /90 HTTP/1.1" 404 2621
+Not Found: /90
+[12/May/2023 17:22:00] "GET /90 HTTP/1.1" 404 2621
+Not Found: /90
+[12/May/2023 17:22:58] "GET /90 HTTP/1.1" 404 2621
+[12/May/2023 17:23:03] "GET /7 HTTP/1.1" 200 192
+[12/May/2023 17:24:04] "POST / HTTP/1.1" 200 200
+[12/May/2023 17:25:06] "GET /7 HTTP/1.1" 200 192
+[12/May/2023 17:25:41] "DELETE /7 HTTP/1.1" 200 99
+Not Found: /7
+[12/May/2023 17:26:04] "DELETE /7 HTTP/1.1" 404 2621
+[12/May/2023 17:30:47] "DELETE /8 HTTP/1.1" 200 99
+[12/May/2023 17:33:48] "GET / HTTP/1.1" 200 206
+[12/May/2023 17:34:01] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[12/May/2023 17:34:01] "GET /2 HTTP/1.1" 404 2618
+Not Found: /2
+[12/May/2023 17:39:36] "GET /2 HTTP/1.1" 404 2618
+[12/May/2023 17:39:36] "GET / HTTP/1.1" 200 206
+[12/May/2023 17:44:07] "GET / HTTP/1.1" 200 206
+[12/May/2023 18:24:47] "GET / HTTP/1.1" 200 206
+[12/May/2023 21:48:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÿíQ\x1a\x00K\x96DÕP\x9aô¶väIÏØ_\x9eËÒI\x7f39W\x00\x03Èu\x1b\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[12/May/2023 21:48:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/May/2023 22:04:53] "GET / HTTP/1.1" 200 206
+[13/May/2023 02:34:28] code 400, message Bad request version ('À\x13À')
+[13/May/2023 02:34:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/May/2023 02:34:29] code 400, message Bad request version ('À\x13À')
+[13/May/2023 02:34:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+Method Not Allowed (HEAD): /
+[13/May/2023 02:34:30] "HEAD / HTTP/1.1" 405 0
+[13/May/2023 02:41:11] code 400, message Bad request version ('À(À$À\x14À')
+[13/May/2023 02:41:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/May/2023 04:05:32] "GET / HTTP/1.1" 200 206
+[13/May/2023 05:08:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03B¿\x92\x81"\x18þ¾/¡î1ª\x96\x02@T\x93')
+[13/May/2023 05:08:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /aaa9
+[13/May/2023 05:47:52] "GET /aaa9 HTTP/1.1" 404 2451
+Not Found: /aab8
+[13/May/2023 05:47:53] "GET /aab8 HTTP/1.1" 404 2451
+[13/May/2023 05:47:54] "GET / HTTP/1.1" 200 206
+[13/May/2023 06:53:46] "POST / HTTP/1.1" 200 131
+[13/May/2023 06:53:46] "POST / HTTP/1.1" 200 131
+Not Found: /Dockerrun.aws.json
+[13/May/2023 06:53:46] "GET /Dockerrun.aws.json HTTP/1.1" 404 2493
+Not Found: /cgi-bin/printenv.pl
+[13/May/2023 06:53:46] "GET /cgi-bin/printenv.pl HTTP/1.1" 404 2496
+Not Found: /sendgrid.env
+[13/May/2023 06:53:46] "GET /sendgrid.env HTTP/1.1" 404 2475
+Not Found: /static../.git/config
+[13/May/2023 06:53:46] "GET /static../.git/config HTTP/1.1" 404 2499
+Not Found: /config.rb
+[13/May/2023 06:53:46] "GET /config.rb HTTP/1.1" 404 2466
+Not Found: /.env
+[13/May/2023 06:53:46] "GET /.env HTTP/1.1" 404 2451
+Not Found: /docker-compose.yml
+[13/May/2023 06:53:46] "GET /docker-compose.yml HTTP/1.1" 404 2493
+Not Found: /env.js
+[13/May/2023 06:53:46] "GET /env.js HTTP/1.1" 404 2457
+Not Found: /.git/config
+[13/May/2023 06:53:46] "GET /.git/config HTTP/1.1" 404 2472
+Not Found: /config/default.json
+[13/May/2023 06:53:46] "GET /config/default.json HTTP/1.1" 404 2496
+Forbidden (CSRF cookie not set.): /admin/login/
+[13/May/2023 06:53:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2870
+Not Found: /.git-credentials
+[13/May/2023 06:53:46] "GET /.git-credentials HTTP/1.1" 404 2487
+Not Found: /1.sql
+[13/May/2023 06:53:46] "GET /1.sql HTTP/1.1" 404 2454
+[13/May/2023 06:53:46] "GET / HTTP/1.1" 200 206
+Not Found: /backup.sql
+[13/May/2023 06:53:50] "GET /backup.sql HTTP/1.1" 404 2469
+Not Found: /docker-compose.prod.yml
+[13/May/2023 06:53:50] "GET /docker-compose.prod.yml HTTP/1.1" 404 2508
+Not Found: /env.development.js
+Not Found: /js../.git/config
+[13/May/2023 06:53:51] "GET /js../.git/config HTTP/1.1" 404 2487
+Not Found: /api/.git/config
+[13/May/2023 06:53:51] "GET /api/.git/config HTTP/1.1" 404 2484
+Not Found: /.chef/config.rb
+[13/May/2023 06:53:51] "GET /.chef/config.rb HTTP/1.1" 404 2484
+Not Found: /config.json
+[13/May/2023 06:53:51] "GET /config.json HTTP/1.1" 404 2472
+[13/May/2023 06:53:51] "GET /env.development.js HTTP/1.1" 404 2493
+Not Found: /.env.bak
+[13/May/2023 06:53:51] "GET /.env.bak HTTP/1.1" 404 2463
+Not Found: /assets/config.rb
+[13/May/2023 06:53:55] "GET /assets/config.rb HTTP/1.1" 404 2487
+Not Found: /.env.dev
+Not Found: /web/.git/config
+[13/May/2023 06:53:55] "GET /web/.git/config HTTP/1.1" 404 2484
+Not Found: /config/config.json
+[13/May/2023 06:53:55] "GET /config/config.json HTTP/1.1" 404 2493
+Not Found: /env.production.js
+[13/May/2023 06:53:55] "GET /env.production.js HTTP/1.1" 404 2490
+Not Found: /database.sql
+[13/May/2023 06:53:55] "GET /database.sql HTTP/1.1" 404 2475
+Not Found: /docker-compose.production.yml
+[13/May/2023 06:53:55] "GET /docker-compose.production.yml HTTP/1.1" 404 2526
+[13/May/2023 06:53:55] "GET /.env.dev HTTP/1.1" 404 2463
+Not Found: /images../.git/config
+[13/May/2023 06:53:55] "GET /images../.git/config HTTP/1.1" 404 2499
+Not Found: /env.test.js
+[13/May/2023 06:54:00] "GET /env.test.js HTTP/1.1" 404 2472
+Not Found: /data.sql
+[13/May/2023 06:54:00] "GET /data.sql HTTP/1.1" 404 2463
+Not Found: /img../.git/config
+[13/May/2023 06:54:01] "GET /img../.git/config HTTP/1.1" 404 2490
+Not Found: /app/.git/config
+[13/May/2023 06:54:01] "GET /app/.git/config HTTP/1.1" 404 2484
+Not Found: /credentials/config.json
+[13/May/2023 06:54:01] "GET /credentials/config.json HTTP/1.1" 404 2508
+Not Found: /.env.dev.local
+[13/May/2023 06:54:01] "GET /.env.dev.local HTTP/1.1" 404 2481
+Not Found: /docker-compose.staging.yml
+[13/May/2023 06:54:01] "GET /docker-compose.staging.yml HTTP/1.1" 404 2517
+Not Found: /env.dev.js
+[13/May/2023 06:54:05] "GET /env.dev.js HTTP/1.1" 404 2469
+Not Found: /css../.git/config
+[13/May/2023 06:54:05] "GET /css../.git/config HTTP/1.1" 404 2490
+Not Found: /db_backup.sql
+[13/May/2023 06:54:05] "GET /db_backup.sql HTTP/1.1" 404 2478
+Not Found: /backend/.git/config
+[13/May/2023 06:54:05] "GET /backend/.git/config HTTP/1.1" 404 2496
+Not Found: /.env.development.local
+[13/May/2023 06:54:07] "GET /.env.development.local HTTP/1.1" 404 2505
+Not Found: /docker-compose.dev.yml
+[13/May/2023 06:54:07] "GET /docker-compose.dev.yml HTTP/1.1" 404 2505
+Not Found: /dbdump.sql
+[13/May/2023 06:54:09] "GET /dbdump.sql HTTP/1.1" 404 2469
+Not Found: /assets../.git/config
+[13/May/2023 06:54:09] "GET /assets../.git/config HTTP/1.1" 404 2499
+Not Found: /env.prod.js
+[13/May/2023 06:54:09] "GET /env.prod.js HTTP/1.1" 404 2472
+Not Found: /.env.prod
+[13/May/2023 06:54:11] "GET /.env.prod HTTP/1.1" 404 2466
+Not Found: /docker-compose-dev.yml
+[13/May/2023 06:54:11] "GET /docker-compose-dev.yml HTTP/1.1" 404 2505
+Not Found: /db.sql
+Not Found: /content../.git/config
+[13/May/2023 06:54:15] "GET /content../.git/config HTTP/1.1" 404 2502
+[13/May/2023 06:54:15] "GET /db.sql HTTP/1.1" 404 2457
+Not Found: /.env.prod.local
+[13/May/2023 06:54:15] "GET /.env.prod.local HTTP/1.1" 404 2484
+Not Found: /docker-compose.override.yml
+[13/May/2023 06:54:15] "GET /docker-compose.override.yml HTTP/1.1" 404 2520
+Not Found: /dump.sql
+[13/May/2023 06:54:20] "GET /dump.sql HTTP/1.1" 404 2463
+Not Found: /events../.git/config
+[13/May/2023 06:54:20] "GET /events../.git/config HTTP/1.1" 404 2499
+Not Found: /.env.production
+[13/May/2023 06:54:21] "GET /.env.production HTTP/1.1" 404 2484
+Not Found: /.env.production.local
+[13/May/2023 06:54:25] "GET /.env.production.local HTTP/1.1" 404 2502
+Not Found: /54.180.61.4:8000.sql
+[13/May/2023 06:54:25] "GET /54.180.61.4:8000.sql HTTP/1.1" 404 2499
+Not Found: /media../.git/config
+[13/May/2023 06:54:25] "GET /media../.git/config HTTP/1.1" 404 2496
+Not Found: /54.180.61.4:8000_db.sql
+[13/May/2023 06:54:29] "GET /54.180.61.4:8000_db.sql HTTP/1.1" 404 2508
+Not Found: /lib../.git/config
+[13/May/2023 06:54:29] "GET /lib../.git/config HTTP/1.1" 404 2490
+Not Found: /.env.local
+[13/May/2023 06:54:29] "GET /.env.local HTTP/1.1" 404 2469
+Not Found: /localhost.sql
+[13/May/2023 06:54:34] "GET /localhost.sql HTTP/1.1" 404 2478
+Not Found: /.env.stage
+[13/May/2023 06:54:34] "GET /.env.stage HTTP/1.1" 404 2469
+Not Found: /.env.live
+[13/May/2023 06:54:41] "GET /.env.live HTTP/1.1" 404 2466
+Not Found: /mysqldump.sql
+[13/May/2023 06:54:41] "GET /mysqldump.sql HTTP/1.1" 404 2478
+Not Found: /.env.backup
+[13/May/2023 06:54:46] "GET /.env.backup HTTP/1.1" 404 2472
+Not Found: /mysql.sql
+[13/May/2023 06:54:46] "GET /mysql.sql HTTP/1.1" 404 2466
+Not Found: /site.sql
+[13/May/2023 06:54:51] "GET /site.sql HTTP/1.1" 404 2463
+Not Found: /.env.save
+[13/May/2023 06:54:51] "GET /.env.save HTTP/1.1" 404 2466
+Not Found: /.env.old
+[13/May/2023 06:54:56] "GET /.env.old HTTP/1.1" 404 2463
+Not Found: /sql.sql
+[13/May/2023 06:54:56] "GET /sql.sql HTTP/1.1" 404 2460
+Not Found: /temp.sql
+[13/May/2023 06:55:00] "GET /temp.sql HTTP/1.1" 404 2463
+Not Found: /.env.www
+[13/May/2023 06:55:00] "GET /.env.www HTTP/1.1" 404 2463
+Not Found: /translate.sql
+[13/May/2023 06:55:04] "GET /translate.sql HTTP/1.1" 404 2478
+Not Found: /.env_1
+[13/May/2023 06:55:05] "GET /.env_1 HTTP/1.1" 404 2457
+Not Found: /users.sql
+[13/May/2023 06:55:09] "GET /users.sql HTTP/1.1" 404 2466
+Not Found: /.env_sample
+[13/May/2023 06:55:12] "GET /.env_sample HTTP/1.1" 404 2472
+Not Found: /wp-content/uploads/dump.sql
+[13/May/2023 06:55:14] "GET /wp-content/uploads/dump.sql HTTP/1.1" 404 2520
+Not Found: /.env.61
+[13/May/2023 06:55:16] "GET /.env.61 HTTP/1.1" 404 2460
+Not Found: /wp-content/mysql.sql
+[13/May/2023 06:55:18] "GET /wp-content/mysql.sql HTTP/1.1" 404 2499
+Not Found: /.env.54.180
+[13/May/2023 06:55:21] "GET /.env.54.180 HTTP/1.1" 404 2472
+Not Found: /api/.env
+[13/May/2023 06:55:26] "GET /api/.env HTTP/1.1" 404 2463
+Not Found: /2
+[13/May/2023 07:15:07] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[13/May/2023 07:15:07] "GET /favicon.ico HTTP/1.1" 404 2486
+[13/May/2023 07:50:01] "GET / HTTP/1.1" 200 206
+[13/May/2023 08:09:49] code 400, message Bad request version ('À\x14À')
+[13/May/2023 08:09:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/May/2023 08:09:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Æó\x80&ÂIZÌ\x83K\x14Kû\x9dr\x14d=ùê\x96pg©\x14Õë>WÈ,V\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[13/May/2023 08:09:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/May/2023 08:09:50] "GET / HTTP/1.1" 200 206
+[13/May/2023 08:09:51] code 400, message Bad request version ('À\x14À')
+[13/May/2023 08:09:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[13/May/2023 08:09:51] "GET /api/islogged HTTP/1.1" 404 2475
+[13/May/2023 08:46:10] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[13/May/2023 08:46:10] "GET /2 HTTP/1.1" 404 2618
+[13/May/2023 08:46:17] "GET / HTTP/1.1" 200 206
+[13/May/2023 09:48:08] code 400, message Bad request syntax ('MGLNDD_54.180.61.4_8000')
+[13/May/2023 09:48:08] "MGLNDD_54.180.61.4_8000" 400 -
+[13/May/2023 13:22:54] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[13/May/2023 13:22:55] "GET /favicon.ico HTTP/1.1" 404 2486
+[13/May/2023 17:12:01] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03%\x10)¬(æÄbeNS\x9cI¿}Eÿ'¹\x14vÎ©«3é&ZH|~«\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[13/May/2023 17:12:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[13/May/2023 23:38:22] code 400, message Bad request version ('À(À$À\x14À')
+[13/May/2023 23:38:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/May/2023 00:40:24] "GET / HTTP/1.1" 200 206
+[14/May/2023 01:04:18] "GET / HTTP/1.1" 200 206
+[14/May/2023 04:18:55] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[14/May/2023 05:55:20] "GET /2 HTTP/1.1" 404 2618
+[14/May/2023 05:55:21] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[14/May/2023 06:51:23] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[14/May/2023 06:51:24] "GET /favicon.ico HTTP/1.1" 404 2486
+Not Found: /2
+[14/May/2023 09:40:13] "GET /2 HTTP/1.1" 404 2618
+[14/May/2023 09:40:14] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[14/May/2023 09:40:35] "GET /2 HTTP/1.1" 404 2618
+[14/May/2023 11:03:18,838] - Broken pipe from ('104.152.52.237', 42160)
+[14/May/2023 11:22:28,265] - Broken pipe from ('167.248.133.49', 38436)
+[14/May/2023 11:22:29] "GET / HTTP/1.1" 200 206
+[14/May/2023 11:22:29,547] - Broken pipe from ('167.248.133.49', 57924)
+[14/May/2023 11:22:29] "GET / HTTP/1.1" 200 206
+[14/May/2023 11:22:30] code 505, message Invalid HTTP version (2.0)
+[14/May/2023 11:22:30] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[14/May/2023 11:22:30] "GET /favicon.ico HTTP/1.1" 404 2472
+[14/May/2023 13:22:47,417] - Broken pipe from ('167.94.138.49', 51350)
+[14/May/2023 13:22:48] "GET / HTTP/1.1" 200 206
+[14/May/2023 13:22:48,784] - Broken pipe from ('167.94.138.49', 54470)
+[14/May/2023 13:22:48] "GET / HTTP/1.1" 200 206
+[14/May/2023 13:22:49] code 505, message Invalid HTTP version (2.0)
+[14/May/2023 13:22:49] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[14/May/2023 13:22:49] "GET /favicon.ico HTTP/1.1" 404 2472
+[14/May/2023 14:56:15] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[14/May/2023 14:56:15] "GET /favicon.ico HTTP/1.1" 404 2486
+[14/May/2023 15:58:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x82\x86¬8¦èù@Ó\x063ßJ¨ê¯·¾¼9[öô©')
+[14/May/2023 15:58:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/May/2023 17:29:52] code 400, message Bad request syntax ('MGLNDD_54.180.61.4_8000')
+[14/May/2023 17:29:52] "MGLNDD_54.180.61.4_8000" 400 -
+[14/May/2023 19:18:17] code 400, message Bad request version ('À(À$À\x14À')
+[14/May/2023 19:18:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/May/2023 21:50:56] code 400, message Bad request syntax ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x039'l1yh¨êÞ\x01v\x97ï\x87Ê\x81m\x18;")
+[14/May/2023 21:50:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/May/2023 21:50:57] code 400, message Bad request version ('À\x14À')
+[14/May/2023 21:50:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[14/May/2023 21:50:57] "GET / HTTP/1.1" 200 206
+[14/May/2023 21:50:58] code 400, message Bad request version ('À\x14À')
+[14/May/2023 21:50:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[14/May/2023 21:50:59] "GET /api/islogged HTTP/1.1" 404 2475
+[14/May/2023 21:56:50] code 400, message Bad request syntax ('\x01\x01æ')
+[14/May/2023 21:56:50] "æ" 400 -
+[15/May/2023 00:22:31] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[15/May/2023 00:22:40] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /http:/api.ipify.org/
+[15/May/2023 00:22:43] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[15/May/2023 00:22:49] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[15/May/2023 01:37:21,567] - Broken pipe from ('35.178.89.234', 21345)
+[15/May/2023 01:39:59,089] - Broken pipe from ('35.178.89.234', 21345)
+Not Found: /index.html
+[15/May/2023 02:52:06] "GET /index.html HTTP/1.1" 404 2469
+Not Found: /+CSCOE+/logon.html
+[15/May/2023 02:52:14] "GET /+CSCOE+/logon.html HTTP/1.1" 404 2493
+[15/May/2023 03:31:47] "GET / HTTP/1.1" 200 206
+[15/May/2023 04:17:19] code 400, message Bad request version ('À\x14À')
+[15/May/2023 04:17:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/May/2023 05:00:38] "GET / HTTP/1.1" 200 206
+[15/May/2023 18:53:28] "GET / HTTP/1.1" 200 206
+[15/May/2023 21:09:01] "GET / HTTP/1.1" 200 206
+[15/May/2023 22:32:25] "GET / HTTP/1.1" 200 206
+[15/May/2023 22:32:36] code 505, message Invalid HTTP version (2.0)
+[15/May/2023 22:32:36] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[15/May/2023 22:32:36] "GET /favicon.ico HTTP/1.1" 404 2472
+[15/May/2023 23:18:20] code 400, message Bad request version ('À\x14À')
+[15/May/2023 23:18:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/May/2023 23:37:28,418] - Broken pipe from ('167.94.138.50', 51812)
+[15/May/2023 23:37:29] "GET / HTTP/1.1" 200 206
+[15/May/2023 23:37:29,816] - Broken pipe from ('167.94.138.50', 51448)
+[15/May/2023 23:37:30] "GET / HTTP/1.1" 200 206
+[15/May/2023 23:37:30] code 505, message Invalid HTTP version (2.0)
+[15/May/2023 23:37:30] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[15/May/2023 23:37:30] "GET /favicon.ico HTTP/1.1" 404 2472
+[16/May/2023 00:06:58] code 400, message Bad request version ('À(À$À\x14À')
+[16/May/2023 00:06:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/May/2023 00:23:41] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[16/May/2023 00:24:12] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /http:/api.ipify.org/
+[16/May/2023 00:24:35] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[16/May/2023 00:24:57] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[16/May/2023 01:16:43] code 400, message Bad request syntax ('MGLNDD_54.180.61.4_8000')
+[16/May/2023 01:16:43] "MGLNDD_54.180.61.4_8000" 400 -
+[16/May/2023 03:15:19,279] - Broken pipe from ('167.248.133.34', 45640)
+[16/May/2023 03:15:20] "GET / HTTP/1.1" 200 206
+[16/May/2023 03:15:20,622] - Broken pipe from ('167.248.133.34', 41418)
+[16/May/2023 03:15:20] "GET / HTTP/1.1" 200 206
+[16/May/2023 03:15:21] code 505, message Invalid HTTP version (2.0)
+[16/May/2023 03:15:21] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[16/May/2023 03:15:21] "GET /favicon.ico HTTP/1.1" 404 2472
+[16/May/2023 04:05:01] "GET / HTTP/1.1" 200 206
+[16/May/2023 11:22:30] "GET / HTTP/1.1" 200 206
+[16/May/2023 12:26:13] "GET / HTTP/1.1" 200 206
+[16/May/2023 12:44:01] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[16/May/2023 12:44:01] "GET /favicon.ico HTTP/1.1" 404 2472
+[16/May/2023 12:44:07] code 400, message Bad request syntax ('\x03\x92zcd\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/May/2023 12:44:07] "zcd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            " 400 -
+Not Found: /2
+[16/May/2023 13:21:00] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[16/May/2023 13:21:00] "GET /favicon.ico HTTP/1.1" 404 2486
+Not Found: /2
+[16/May/2023 13:38:56] "GET /2 HTTP/1.1" 404 2618
+[16/May/2023 13:38:56] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[16/May/2023 13:39:31] "GET /2 HTTP/1.1" 404 2618
+[16/May/2023 13:39:31] "GET / HTTP/1.1" 200 206
+Not Found: /7
+[16/May/2023 13:39:34] "GET /7 HTTP/1.1" 404 2618
+[16/May/2023 13:39:36,625] - Broken pipe from ('167.94.145.58', 34466)
+[16/May/2023 13:39:37] "GET / HTTP/1.1" 200 206
+[16/May/2023 13:39:38,105] - Broken pipe from ('167.94.145.58', 46590)
+[16/May/2023 13:39:38] "GET / HTTP/1.1" 200 206
+[16/May/2023 13:39:39] code 505, message Invalid HTTP version (2.0)
+[16/May/2023 13:39:39] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[16/May/2023 13:39:39] "GET /favicon.ico HTTP/1.1" 404 2472
+[16/May/2023 13:40:21] code 400, message Bad request version ('\x00\x00\x19ll11th-toy-project.p-e.kr\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/May/2023 13:40:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/May/2023 13:40:21] code 400, message Bad request version ('\x00\x00\x19ll11th-toy-project.p-e.kr\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[16/May/2023 13:40:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/May/2023 13:40:21] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[16/May/2023 13:40:21] "GET /favicon.ico HTTP/1.1" 404 2486
+[16/May/2023 16:51:47] code 400, message Bad request version ('À\x14À')
+[16/May/2023 16:51:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/May/2023 16:51:47] code 400, message Bad request version ('À\x14À')
+[16/May/2023 16:51:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/May/2023 16:51:48] "GET / HTTP/1.1" 200 206
+[16/May/2023 16:51:48] code 400, message Bad request version ('À\x14À')
+[16/May/2023 16:51:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[16/May/2023 16:51:49] "GET /api/islogged HTTP/1.1" 404 2475
+[16/May/2023 16:56:35] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x05\x01=K\x00\x00\x00\x00S\x0e¨À\x00PVÀ\x00\x01\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/May/2023 16:56:35] "   TZ          =K    S¨À PVÀ                                                  " 400 -
+[16/May/2023 20:16:16] code 400, message Bad request version ('À(À$À\x14À')
+[16/May/2023 20:16:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/May/2023 20:32:36] "GET / HTTP/1.1" 200 206
+[16/May/2023 21:26:14] "GET / HTTP/1.1" 200 206
+[17/May/2023 00:21:44] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[17/May/2023 00:22:21] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /http:/api.ipify.org/
+[17/May/2023 00:22:44] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[17/May/2023 00:23:07] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[17/May/2023 01:11:00] "GET / HTTP/1.1" 200 206
+[17/May/2023 02:39:53] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[17/May/2023 03:48:08] "GET /2 HTTP/1.1" 404 2618
+[17/May/2023 03:48:12] "GET / HTTP/1.1" 200 206
+[17/May/2023 06:16:36] code 400, message Bad request syntax ('nil')
+[17/May/2023 06:16:36] "nil" 400 -
+[17/May/2023 06:16:37] "GET / HTTP/1.0" 200 206
+[17/May/2023 06:16:38] "GET / HTTP/1.1" 200 206
+Not Found: /sitemap.xml
+[17/May/2023 06:16:38] "GET /sitemap.xml HTTP/1.1" 404 2472
+Not Found: /robots.txt
+[17/May/2023 06:16:38] "GET /robots.txt HTTP/1.1" 404 2469
+Not Found: /2
+[17/May/2023 07:01:02] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[17/May/2023 07:01:02] "GET /favicon.ico HTTP/1.1" 404 2486
+[17/May/2023 07:03:01] code 400, message Bad request version ('À\x14À')
+[17/May/2023 07:03:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /2
+[17/May/2023 07:11:10] "GET /2 HTTP/1.1" 404 2618
+[17/May/2023 08:50:27] code 400, message Bad request syntax ('MGLNDD_54.180.61.4_8000')
+[17/May/2023 08:50:27] "MGLNDD_54.180.61.4_8000" 400 -
+[17/May/2023 16:05:55] "GET / HTTP/1.1" 200 206
+[17/May/2023 16:37:50] "GET / HTTP/1.1" 200 206
+[17/May/2023 18:18:18] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x037Æô¸\x16\x0f\x93¨\x01\x86,UÖ\x8ee¿<¨2<*[¯\x04Vûk»!´¦\x0f\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[17/May/2023 18:18:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 19:29:53] "GET / HTTP/1.1" 200 206
+[17/May/2023 20:00:19] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[17/May/2023 20:00:19] "GET /favicon.ico HTTP/1.1" 404 2472
+[17/May/2023 22:00:30] code 400, message Bad request version ('À\x14À')
+[17/May/2023 22:00:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 22:00:31] code 400, message Bad request version ('À\x14À')
+[17/May/2023 22:00:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 22:00:31] "GET / HTTP/1.1" 200 206
+[17/May/2023 22:00:31] code 400, message Bad request version ('À\x14À')
+[17/May/2023 22:00:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[17/May/2023 22:00:32] "GET /api/islogged HTTP/1.1" 404 2475
+[17/May/2023 22:25:05,349] - Broken pipe from ('13.40.125.104', 21345)
+[17/May/2023 22:27:31,784] - Broken pipe from ('13.40.125.104', 21345)
+[17/May/2023 23:01:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ý\x1a½¾S\x92ÜÀ¸\x9cú\x9e7\x96\x13¨õyJ@ð5à.\x12R\x80ü®u¦Ð\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[17/May/2023 23:01:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 23:01:41] code 400, message Bad request version ('À\x14À')
+[17/May/2023 23:01:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 23:01:47] code 400, message Bad request version ('À\x14À')
+[17/May/2023 23:01:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 23:01:53] code 400, message Bad request version ('À\x14À')
+[17/May/2023 23:01:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 23:02:00] code 400, message Bad request version ('À\x14À')
+[17/May/2023 23:02:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/May/2023 23:02:06] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x81')
+[17/May/2023 23:02:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+[17/May/2023 23:02:12] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /manage/account/login
+[17/May/2023 23:02:16] "GET /manage/account/login HTTP/1.1" 404 2499
+[17/May/2023 23:02:21] "GET /admin/index.html HTTP/1.1" 302 0
+Not Found: /index.html
+[17/May/2023 23:02:26] "GET /index.html HTTP/1.1" 404 2469
+Not Found: /+CSCOE+/logon.html
+[17/May/2023 23:02:32] "GET /+CSCOE+/logon.html HTTP/1.1" 404 2493
+[17/May/2023 23:02:37] "GET / HTTP/1.1" 200 206
+Not Found: /aaa9
+[17/May/2023 23:18:28] "GET /aaa9 HTTP/1.1" 404 2451
+Not Found: /aab8
+[17/May/2023 23:18:31] "GET /aab8 HTTP/1.1" 404 2451
+[17/May/2023 23:18:33] "GET / HTTP/1.1" 200 206
+[17/May/2023 23:29:34] "GET / HTTP/1.1" 200 206
+[17/May/2023 23:29:35] "GET / HTTP/1.1" 200 206
+[17/May/2023 23:29:49] "GET /admin/ HTTP/1.1" 302 0
+[17/May/2023 23:33:31] "GET / HTTP/1.1" 200 206
+[18/May/2023 04:34:58] code 400, message Bad request version ('À\x14À')
+[18/May/2023 04:34:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/May/2023 07:51:20] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[18/May/2023 07:52:04] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /http:/api.ipify.org/
+[18/May/2023 07:52:26] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[18/May/2023 07:52:49] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[18/May/2023 08:13:29] code 400, message Bad request version ('À\x13À')
+[18/May/2023 08:13:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/May/2023 08:13:29] "GET / HTTP/1.1" 200 206
+[18/May/2023 08:13:30] "GET / HTTP/1.1" 200 206
+Not Found: /.vscode/sftp.json
+[18/May/2023 08:13:30] "GET /.vscode/sftp.json HTTP/1.1" 404 2490
+Not Found: /about
+[18/May/2023 08:13:31] "GET /about HTTP/1.1" 404 2454
+Not Found: /debug/default/view
+[18/May/2023 08:13:31] "GET /debug/default/view?panel=config HTTP/1.1" 404 2506
+Not Found: /v2/_catalog
+[18/May/2023 08:13:32] "GET /v2/_catalog HTTP/1.1" 404 2472
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[18/May/2023 08:13:33] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 2664
+Not Found: /server-status
+[18/May/2023 08:13:33] "GET /server-status HTTP/1.1" 404 2478
+Not Found: /login.action
+[18/May/2023 08:13:34] "GET /login.action HTTP/1.1" 404 2475
+Not Found: /_all_dbs
+[18/May/2023 08:13:34] "GET /_all_dbs HTTP/1.1" 404 2463
+Not Found: /.DS_Store
+[18/May/2023 08:13:35] "GET /.DS_Store HTTP/1.1" 404 2466
+Not Found: /.env
+[18/May/2023 08:13:36] "GET /.env HTTP/1.1" 404 2451
+Not Found: /.git/config
+[18/May/2023 08:13:36] "GET /.git/config HTTP/1.1" 404 2472
+Not Found: /s/43e21363e2038313e24353/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[18/May/2023 08:13:37] "GET /s/43e21363e2038313e24353/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 2723
+Not Found: /config.json
+[18/May/2023 08:13:37] "GET /config.json HTTP/1.1" 404 2472
+Not Found: /telescope/requests
+[18/May/2023 08:13:38] "GET /telescope/requests HTTP/1.1" 404 2493
+[18/May/2023 08:13:38] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 206
+[18/May/2023 12:30:03] code 400, message Bad request version ('OÑËÜ®Ëd')
+[18/May/2023 12:30:03] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+Not Found: /7
+[18/May/2023 14:38:46] "GET /7 HTTP/1.1" 404 2618
+[18/May/2023 15:22:16] "GET / HTTP/1.1" 200 206
+[18/May/2023 15:50:09] "GET / HTTP/1.1" 200 206
+[18/May/2023 15:50:20] code 505, message Invalid HTTP version (2.0)
+[18/May/2023 15:50:20] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[18/May/2023 15:50:20] "GET /favicon.ico HTTP/1.1" 404 2472
+[18/May/2023 16:28:52] code 400, message Bad request syntax ('MGLNDD_54.180.61.4_8000')
+[18/May/2023 16:28:52] "MGLNDD_54.180.61.4_8000" 400 -
+Not Found: /2
+[18/May/2023 18:02:46] "GET /2 HTTP/1.1" 404 2618
+[18/May/2023 18:28:03] "GET / HTTP/1.1" 200 206
+[18/May/2023 19:37:58] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03jE2\x8e2Ò0\x90§\x83h\x10\x920ª×wØb\x95ÙÉæ\x18:)qY\x98x\x16®\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[18/May/2023 19:37:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/May/2023 22:39:43] "GET / HTTP/1.1" 200 206
+[18/May/2023 23:12:47] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[18/May/2023 23:59:13] "GET /2 HTTP/1.1" 404 2618
+[18/May/2023 23:59:13] "GET / HTTP/1.1" 200 206
+[18/May/2023 23:59:23] "GET / HTTP/1.1" 200 206
+[19/May/2023 03:05:27,061] - Broken pipe from ('162.142.125.14', 40210)
+[19/May/2023 03:05:28] "GET / HTTP/1.1" 200 206
+[19/May/2023 03:05:28,383] - Broken pipe from ('162.142.125.14', 58302)
+[19/May/2023 03:05:28] "GET / HTTP/1.1" 200 206
+[19/May/2023 03:05:28] code 505, message Invalid HTTP version (2.0)
+[19/May/2023 03:05:28] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[19/May/2023 03:05:29] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /2
+[19/May/2023 03:28:25] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[19/May/2023 03:28:26] "GET /favicon.ico HTTP/1.1" 404 2486
+[19/May/2023 03:28:34] "GET / HTTP/1.1" 200 206
+[19/May/2023 03:28:42] "GET / HTTP/1.1" 200 206
+[19/May/2023 03:28:45] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[19/May/2023 03:29:07] "GET /2 HTTP/1.1" 404 2618
+[19/May/2023 03:29:21] "GET / HTTP/1.1" 200 206
+Not Found: /2
+[19/May/2023 03:29:49] "GET /2 HTTP/1.1" 404 2618
+[19/May/2023 04:01:22] code 400, message Bad request version ('À\x14À')
+[19/May/2023 04:01:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+[19/May/2023 04:01:23] code 400, message Bad request version ('À\x14À')
+[19/May/2023 04:01:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[19/May/2023 04:01:23] "GET / HTTP/1.1" 200 206
+[19/May/2023 04:01:24] code 400, message Bad request version ('À\x14À')
+[19/May/2023 04:01:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[19/May/2023 04:01:24] "GET /api/islogged HTTP/1.1" 404 2475
+[19/May/2023 04:08:03] "GET / HTTP/1.1" 200 206
+[19/May/2023 04:31:55] "GET / HTTP/1.1" 200 206
+[19/May/2023 04:31:56] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03^b\x0eO¾ú')
+[19/May/2023 04:31:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[19/May/2023 04:40:17] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[19/May/2023 04:40:18] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /robots.txt
+[19/May/2023 04:40:18] "GET /robots.txt HTTP/1.1" 404 2469
+Not Found: /sitemap.xml
+[19/May/2023 04:40:19] "GET /sitemap.xml HTTP/1.1" 404 2472
+[19/May/2023 05:39:01] "GET / HTTP/1.1" 200 206
+Not Found: /favicon.ico
+[19/May/2023 05:39:10] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /http:/api.ipify.org/
+[19/May/2023 05:39:14] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[19/May/2023 05:39:17] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[19/May/2023 06:03:35] "GET / HTTP/1.1" 200 206
+[19/May/2023 06:20:29,883] - Broken pipe from ('167.248.133.33', 60702)
+[19/May/2023 06:20:31] "GET / HTTP/1.1" 200 206
+[19/May/2023 06:20:31,201] - Broken pipe from ('167.248.133.33', 58922)
+[19/May/2023 06:20:31] "GET / HTTP/1.1" 200 206
+[19/May/2023 06:20:31] code 505, message Invalid HTTP version (2.0)
+[19/May/2023 06:20:31] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[19/May/2023 06:20:32] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /2
+[19/May/2023 07:16:16] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[19/May/2023 07:16:16] "GET /favicon.ico HTTP/1.1" 404 2486
+[19/May/2023 07:55:28] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:29] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:29] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:29] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:30] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:30] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:30] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:30] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:31] "OPTIONS /undefined HTTP/1.1" 200 0
+[19/May/2023 07:55:31] "OPTIONS /undefined HTTP/1.1" 200 0
+Not Found: /api/guestbook
+[19/May/2023 08:14:18] "OPTIONS /api/guestbook/1 HTTP/1.1" 200 0
+[19/May/2023 08:14:18] "GET /api/guestbook HTTP/1.1" 404 2492
+Not Found: /api/guestbook
+[19/May/2023 08:24:06] "GET /api/guestbook HTTP/1.1" 404 2492
+[19/May/2023 08:24:12] "GET / HTTP/1.1" 200 206
+[19/May/2023 08:35:28] "OPTIONS /api/guestbook HTTP/1.1" 200 0
+[19/May/2023 08:35:44] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 08:47:03] "GET / HTTP/1.1" 200 206
+[19/May/2023 08:47:06] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 08:53:18] "GET / HTTP/1.1" 200 206
+Not Found: /guestbook
+[19/May/2023 09:34:51] "GET //guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:34:54] "OPTIONS //guestbook HTTP/1.1" 200 0
+Not Found: /guestbook
+[19/May/2023 09:35:30] "GET //guestbook HTTP/1.1" 404 2480
+Not Found: /guestbook
+[19/May/2023 09:35:38] "GET //guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:35:42] "OPTIONS //guestbook HTTP/1.1" 200 0
+[19/May/2023 09:35:43] "OPTIONS //guestbook HTTP/1.1" 200 0
+Not Found: /guestbook
+[19/May/2023 09:35:48] "GET //guestbook HTTP/1.1" 404 2480
+Not Found: /guestbook
+[19/May/2023 09:37:36] "GET /guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:37:40] "OPTIONS /guestbook HTTP/1.1" 200 0
+Not Found: /guestbook
+[19/May/2023 09:38:02] "GET /guestbook HTTP/1.1" 404 2480
+Not Found: /guestbook
+[19/May/2023 09:38:13] "GET /guestbook HTTP/1.1" 404 2480
+Not Found: /guestbook
+[19/May/2023 09:38:20] "GET /guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:38:23] "OPTIONS / HTTP/1.1" 200 0
+Not Found: /guestbook
+[19/May/2023 09:38:28] "GET /guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:41:48] "OPTIONS //guestbook HTTP/1.1" 200 0
+Not Found: /guestbook
+[19/May/2023 09:41:55] "GET /guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:41:58] "OPTIONS /guestbook HTTP/1.1" 200 0
+[19/May/2023 09:42:58] "GET / HTTP/1.1" 200 206
+Not Found: /guestbook
+[19/May/2023 09:44:02] "GET /guestbook HTTP/1.1" 404 2480
+[19/May/2023 09:44:14] "GET / HTTP/1.1" 200 206
+[19/May/2023 09:44:21] "GET / HTTP/1.1" 200 206
+[19/May/2023 09:44:41] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:45:56] "GET / HTTP/1.1" 200 206
+[19/May/2023 09:45:56] "GET / HTTP/1.1" 200 206
+[19/May/2023 09:46:00] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:46:41] "GET / HTTP/1.1" 200 206
+[19/May/2023 09:48:47] "POST / HTTP/1.1" 200 131
+[19/May/2023 09:48:58] "POST / HTTP/1.1" 200 131
+[19/May/2023 09:49:15] "POST / HTTP/1.1" 200 139
+[19/May/2023 09:49:34] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:49:47] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:49:55] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:50:14] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:50:16] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:50:25] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:50:43] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:51:36] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:51:44] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:54:20] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:54:25] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:54:27] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:54:30] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:55:33] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:55:37] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:56:13] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:56:21] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:56:46] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:56:53] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:57:01] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:58:02] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:58:05] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:58:12] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:58:17] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:58:31] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:59:10] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:59:10] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 09:59:24] "GET / HTTP/1.1" 200 256
+[19/May/2023 09:59:27] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:00:13] "GET / HTTP/1.1" 200 256
+[19/May/2023 10:00:24] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:02:18] "POST / HTTP/1.1" 200 140
+[19/May/2023 10:02:28] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:02:42] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:02:51] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:02:56] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:03:43] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:03:47] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:08:16] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:08:24] "OPTIONS // HTTP/1.1" 200 0
+[19/May/2023 10:08:26] "OPTIONS // HTTP/1.1" 200 0
+[19/May/2023 10:08:38] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:08:41] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:09:07] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:11:07] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:11:13] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:13:04] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:13:24] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:13:31] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:13:48] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:13:58] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:14:04] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 10:14:40] "GET // HTTP/1.1" 200 307
+[19/May/2023 10:14:43] "OPTIONS / HTTP/1.1" 200 0
+Not Found: /aaa9
+[19/May/2023 10:14:58] "GET /aaa9 HTTP/1.1" 404 2451
+Not Found: /aab8
+[19/May/2023 10:15:02] "GET /aab8 HTTP/1.1" 404 2451
+[19/May/2023 10:15:06] "GET / HTTP/1.1" 200 307
+[19/May/2023 11:14:56,940] - Broken pipe from ('104.152.52.133', 54863)
+[19/May/2023 13:59:53] "GET / HTTP/1.1" 200 307
+[19/May/2023 14:01:08] "GET / HTTP/1.1" 200 307
+[19/May/2023 14:05:55] "GET / HTTP/1.1" 200 307
+[19/May/2023 14:05:58] "GET / HTTP/1.1" 200 307
+Not Found: /favicon.ico
+[19/May/2023 14:05:58] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /2
+[19/May/2023 14:32:20] "GET /2 HTTP/1.1" 404 2618
+[19/May/2023 14:32:21] "GET / HTTP/1.1" 200 307
+[19/May/2023 15:01:49] "GET / HTTP/1.1" 200 307
+[19/May/2023 15:01:56] "GET / HTTP/1.1" 200 307
+[19/May/2023 15:02:04] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 15:04:01] "GET / HTTP/1.1" 200 307
+[19/May/2023 15:04:09] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 15:04:09] "POST / HTTP/1.1" 200 142
+[19/May/2023 15:06:55] "GET / HTTP/1.1" 200 360
+[19/May/2023 15:07:02] "OPTIONS / HTTP/1.1" 200 0
+[19/May/2023 15:07:02] "POST / HTTP/1.1" 200 172
+[19/May/2023 18:34:21] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03±\x7fÇé7å\x90\x8fF=\x02PcQ¯»Ã\x11[w')
+[19/May/2023 18:34:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[19/May/2023 19:24:55] "GET / HTTP/1.1" 200 443
+[19/May/2023 20:31:36] "GET / HTTP/1.1" 200 443
+Not Found: /favicon.ico
+[19/May/2023 20:31:37] "GET /favicon.ico HTTP/1.1" 404 2472
+[19/May/2023 20:31:45] code 400, message Bad request syntax ('\x03ªÜgd\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[19/May/2023 20:31:45] "ªÜgd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            " 400 -
+[19/May/2023 23:11:55] "GET / HTTP/1.1" 200 443
+[19/May/2023 23:38:15] code 400, message Bad request version ('À\x14À')
+[19/May/2023 23:38:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/May/2023 00:04:08] code 400, message Bad request syntax ('MGLNDD_54.180.61.4_8000')
+[20/May/2023 00:04:08] "MGLNDD_54.180.61.4_8000" 400 -
+[20/May/2023 00:13:14] "GET / HTTP/1.0" 200 443
+[20/May/2023 00:13:14] "GET / HTTP/1.1" 200 443
+Not Found: /favicon.ico
+[20/May/2023 00:13:14] "GET /favicon.ico HTTP/1.1" 404 2472
+[20/May/2023 01:11:01] "GET / HTTP/1.1" 200 443
+[20/May/2023 02:32:13] code 400, message Bad request syntax ('nil')
+[20/May/2023 02:32:13] "nil" 400 -
+[20/May/2023 02:57:03] "GET / HTTP/1.1" 200 443
+Not Found: /favicon.ico
+[20/May/2023 02:57:12] "GET /favicon.ico HTTP/1.1" 404 2472
+Not Found: /http:/api.ipify.org/
+[20/May/2023 02:57:15] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[20/May/2023 02:57:18] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[20/May/2023 03:08:16] "GET / HTTP/1.1" 200 443
+Not Found: /favicon.ico
+[20/May/2023 03:08:16] "GET /favicon.ico HTTP/1.1" 404 2486
+[20/May/2023 04:38:51] "GET / HTTP/1.1" 200 443
+[20/May/2023 04:41:44,680] - Broken pipe from ('167.94.138.51', 45164)
+[20/May/2023 04:41:45] "GET / HTTP/1.1" 200 443
+[20/May/2023 04:41:46,024] - Broken pipe from ('167.94.138.51', 45700)
+[20/May/2023 04:41:46] "GET / HTTP/1.1" 200 443
+[20/May/2023 04:41:46] code 505, message Invalid HTTP version (2.0)
+[20/May/2023 04:41:46] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[20/May/2023 04:41:47] "GET /favicon.ico HTTP/1.1" 404 2472
+[20/May/2023 07:32:27] "GET / HTTP/1.1" 200 443
+[20/May/2023 07:32:32] "GET / HTTP/1.1" 200 443
+[20/May/2023 07:32:37] "GET / HTTP/1.1" 200 443
+[20/May/2023 07:32:49] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 07:33:20] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 07:33:49] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 07:35:42] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 07:37:24] "GET / HTTP/1.1" 200 443
+[20/May/2023 07:45:16] "GET / HTTP/1.1" 200 443
+[20/May/2023 07:46:52] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:02:59] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:03:30] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:03:55] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:08:02] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:09:23] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 09:12:55] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:13:32] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 09:13:39] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:15:55] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:16:19] "GET / HTTP/1.1" 200 443
+[20/May/2023 09:17:42] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 09:21:18] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 09:24:41] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 09:26:28] "GET / HTTP/1.1" 200 443
+Not Found: /favicon.ico
+[20/May/2023 09:26:29] "GET /favicon.ico HTTP/1.1" 404 2486
+Not Found: /2
+[20/May/2023 10:06:55] "GET /2 HTTP/1.1" 404 2618
+[20/May/2023 10:06:56] "GET / HTTP/1.1" 200 443
+[20/May/2023 10:11:00] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 10:16:31] code 400, message Bad request version ('À(À$À\x14À')
+[20/May/2023 10:16:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/May/2023 11:01:55] "OPTIONS / HTTP/1.1" 200 0
+[20/May/2023 11:15:57] "GET / HTTP/1.1" 200 443
+[20/May/2023 11:15:59] "GET / HTTP/1.1" 200 443
+[20/May/2023 11:16:05] "GET / HTTP/1.1" 200 443
+[20/May/2023 12:30:11] code 400, message Bad request version ('À\x13À')
+[20/May/2023 12:30:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /2
+[20/May/2023 12:37:14] "GET /2 HTTP/1.1" 404 2618
+Not Found: /favicon.ico
+[20/May/2023 12:37:14] "GET /favicon.ico HTTP/1.1" 404 2486
+[20/May/2023 12:37:17] "GET / HTTP/1.1" 200 443
+[20/May/2023 20:06:18] "GET / HTTP/1.1" 200 443
+[20/May/2023 20:42:56] "GET / HTTP/1.1" 200 443
+[20/May/2023 21:39:45] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03TÉ')
+[20/May/2023 21:39:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/May/2023 22:15:31] "GET / HTTP/1.1" 200 443
+[20/May/2023 23:02:38] code 400, message Bad request version ('À\x14À')
+[20/May/2023 23:02:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/May/2023 23:02:38] code 400, message Bad request version ('À\x14À')
+[20/May/2023 23:02:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/May/2023 23:02:39] "GET / HTTP/1.1" 200 443
+[20/May/2023 23:02:40] code 400, message Bad request version ('À\x14À')
+[20/May/2023 23:02:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[20/May/2023 23:02:40] "GET /api/islogged HTTP/1.1" 404 2475
+[21/May/2023 00:16:20,501] - Broken pipe from ('167.94.145.59', 52306)
+[21/May/2023 00:16:21] "GET / HTTP/1.1" 200 443
+[21/May/2023 00:16:22,017] - Broken pipe from ('167.94.145.59', 34650)
+[21/May/2023 00:16:22] "GET / HTTP/1.1" 200 443
+[21/May/2023 00:16:23] code 505, message Invalid HTTP version (2.0)
+[21/May/2023 00:16:23] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[21/May/2023 00:16:23] "GET /favicon.ico HTTP/1.1" 404 2472
